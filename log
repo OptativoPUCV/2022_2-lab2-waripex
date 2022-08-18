@@ -8,3 +8,17 @@ Thu 18 Aug 2022 01:22:35 AM UTC:
  tests:  1|5
 total_score: 10/70
 6e7e786
+Thu 18 Aug 2022 01:34:54 AM UTC: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:39:3: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+   39 |   if (!list -> head)
+      |   ^~
+list.c:41:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   41 |     return (list->head->data);
+      |     ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+4844c86

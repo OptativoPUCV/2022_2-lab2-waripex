@@ -22,3 +22,8 @@ list.c:41:5: note: ...this statement, but the latter is misleadingly indented as
 cc1: all warnings being treated as errors
 Compilation failed
 4844c86
+Thu 18 Aug 2022 01:48:32 AM UTC: 
+ list.c | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+ tests:  0|0
+bb92d4b

@@ -39,3 +39,16 @@ Thu 18 Aug 2022 01:49:53 AM UTC:
  tests:  1|5
 total_score: 10/70
 cb33397
+Thu 18 Aug 2022 01:51:37 AM UTC: 
+ list.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:42:28: error: expected ‘;’ before ‘}’ token
+   42 |   return (list->head->data)
+      |                            ^
+      |                            ;
+   43 | }
+      | ~                           
+Compilation failed
+ce3844a

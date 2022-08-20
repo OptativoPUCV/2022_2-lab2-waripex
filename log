@@ -98,3 +98,9 @@ list.c:82:9: error: unused variable ‘nodo’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 94caffe
+Sat 20 Aug 2022 02:46:00 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  10|2
+total_score: 45/70
+efaadb8
